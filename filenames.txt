@@ -1,0 +1,11 @@
+../cassandra/src/java/org/apache/cassandra/db/ColumnFamilyStore.java
+../cassandra/src/java/org/apache/cassandra/db/Directories.java
+../cassandra/src/java/org/apache/cassandra/db/compaction/CompactionManager.java
+../cassandra/src/java/org/apache/cassandra/index/sasi/TermIterator.java
+../cassandra/src/java/org/apache/cassandra/index/sasi/conf/IndexMode.java
+../cassandra/src/java/org/apache/cassandra/io/util/FileUtils.java
+../cassandra/src/java/org/apache/cassandra/tools/LoaderOptions.java
+../cassandra/src/java/org/apache/cassandra/utils/Clock.java
+
+
+

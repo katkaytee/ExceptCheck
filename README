@@ -1,0 +1,13 @@
+ExceptCheck is a Python command-line interface tool that performs source code analysis, and is built using and extending an open-source library called javalang (https://github.com/c2nes/javalang). Javalang provides a lexer and parser for Java 8 and is based on the Java language specification found at: http://docs.oracle.com/javase/specs/jls/se8/html/.
+
+The features of ExceptCheck are largely based on the work of the authors of "Simple Testing Can Prevent Most Critical Failures" (2014) from the University of Toronto on their Aspirator tool (https://github.com/diy1/aspirator).
+
+A typical run of ExceptCheck will look like:
+$ python exceptCheck.py --filename HelloWorld.java --sourceCheck --summary
+
+This particular run will start a full sourcecode analysis on the specified java file, and print a summary for certain warnings/bad practices detected.
+
+ExceptCheck also works on large directories, and has been run against open-source distributed systems like Cassandra and Hive.
+
+To display a list of further possible options for the checker, run:
+$ python exceptCheck.py -h
